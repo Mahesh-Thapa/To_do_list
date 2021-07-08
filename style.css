@@ -1,0 +1,48 @@
+
+.row.content {height: 1500px}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container-fluid ul{
+  list-style: none;
+  padding: 0px;
+  padding-left:12px;
+  
+}
+.container-fluid li a{
+  position: relative;
+  float: right;
+ font-weight: bold;
+  font-size: 20px;
+}
+.container-fluid{
+  margin: auto;
+  border: 3px solid #d3d3d3;
+  padding: 10px;
+}
+
+/* Set background color*/
+.container-fluid{
+    background:linear-gradient(233deg, #C1EBE1, #93B4AC, #37bbde);
+    height: 300vh;
+    background-size:cover;
+    background-blend-mode: hard-light;
+    animation: hue-rotate 8s linear infinite;
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+  

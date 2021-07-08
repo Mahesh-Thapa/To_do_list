@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>To Do list</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-xs-12 col-sm-12 col-md-12" style="padding-top: 20px;">
+      <h4 style="text-align:center; font-size:28px;font-family: 'Pacifico', cursive;text-decoration: underline;"><span style="color: #337AB7;text-decoration: underline;" >To</span>-do list <span class="
+        glyphicon glyphicon-pencil"></span></h4>
+      <ul id="listbox" style="font-family: 'Pacifico', cursive;
+      font-size:14px; padding-top: 12px;padding-bottom:12px; ">
+      </ul><br><span id="error" style="font-family: 'Pacifico', cursive;
+      font-size:14px; padding-top: 12px;padding-bottom:12px; width:60%;margin: auto;padding: 10px;"></span>
+      <div class="input-group" style="padding-bottom:12px; width:60%;margin: auto;padding: 10px;">
+       <input type="text" class="form-control" placeholder="Add New Item.." id="name">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" onclick="addMore()" value="Add">
+            <span class="glyphicon glyphicon-pencil"></span>
+          </button>
+        </span>
+        
+       </div>
+       <h3 style="text-align: center;font-size: 12px;font-family: 'Pacifico', cursive;text-decoration: underline;">Designed by Mahesh Thapa</h3>
+      </div> 
+   </div>
+</div>
+</div>
+<!-- Main Javascript file -->
+<script src="script.js"></script>
+</body>
+</html>
